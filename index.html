@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stopwatch App</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<h1 style="text-align: center;font-size: 70px;">Stopwatch</h1>
+	<div class="container">
+		<div class="stopwatch">
+			<h1 class="counter">
+				<q>0</q><span>0</span> :
+				<q>0</q><span>0</span> :
+				<q>0</q><span>0</span>
+			</h1>
+			<div class="control-buttons">
+				<button onclick="StartAll()" class="btn-start">Start</button>
+				<button class="btn-lap" onclick="ResetOrLap()">Lap</button>
+			</div>
+			
+		</div>
+		<div class="lap">
+			<h1 class="lap-counter">
+				<q>0</q><span>0</span> : 
+				<q>0</q><span>0</span> : 
+				<q>0</q><span>0</span>
+			</h1>
+		</div>
+	</div>
+	<div class="laps">
+					
+	</div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
